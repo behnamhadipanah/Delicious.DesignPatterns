@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}"
+	ProjectSection(SolutionItems) = preProject
+		Decorator\Decorator_Pattern\Decorator_UML.jpg = Decorator\Decorator_Pattern\Decorator_UML.jpg
+		Decorator\Decorator_Pattern\Doc.txt = Decorator\Decorator_Pattern\Doc.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_Pattern", "Decorator\Decorator_Pattern\Decorator_Pattern.csproj", "{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A} = {8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}
