@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}"
 	ProjectSection(SolutionItems) = preProject
 		Decorator\Decorator_Pattern\Decorator_UML.jpg = Decorator\Decorator_Pattern\Decorator_UML.jpg
-		Decorator\Decorator_Pattern\Doc.txt = Decorator\Decorator_Pattern\Doc.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_Pattern", "Decorator\Decorator_Pattern\Decorator_Pattern.csproj", "{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}"
