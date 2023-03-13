@@ -1,4 +1,6 @@
-﻿using Ex.Decorator.Repository;
+﻿using EX.Decorator.AspNetCore.Decorator;
+using Ex.Decorator.Domain;
+using Ex.Decorator.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EX.Decorator.AspNetCore.Controllers
@@ -15,6 +17,12 @@ namespace EX.Decorator.AspNetCore.Controllers
         }
         public IActionResult Index()
         {
+            var loggingDecorator = new LoggingDecorator(_addNewProductService,null);
+            loggingDecorator.Execute(new Product()
+            {
+                Id = 1,
+                Title = "Product1"
+            });
             return View();
         }
     }
