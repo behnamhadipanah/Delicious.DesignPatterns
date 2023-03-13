@@ -1,0 +1,4 @@
+IAddNewProductService ==> Component
+AddNewProductService ==> ConcreteComponent
+AddNewProductServiceDecorator ===> Decorator
+LoggingDecorator ==> ConcreteDecorator

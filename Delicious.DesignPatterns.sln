@@ -8,9 +8,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{
 		Decorator\Decorator_Pattern\Decorator_UML.jpg = Decorator\Decorator_Pattern\Decorator_UML.jpg
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_Pattern", "Decorator\Decorator_Pattern\Decorator_Pattern.csproj", "{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator_Pattern", "Decorator\Decorator_Pattern\Decorator_Pattern.csproj", "{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Decorator.Email", "Decorator\Ex.Decorator.Email\Ex.Decorator.Email.csproj", "{8CE6DE4E-88A3-448E-8416-EC1A4450D023}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{96A3F939-78F0-4176-B00F-91E87A5F33D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductServiceLogger", "ProductServiceLogger", "{14C8CAB4-63C1-440B-8658-0D321ABDF3FC}"
+	ProjectSection(SolutionItems) = preProject
+		doc.txt = doc.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EX.Decorator.AspNetCore", "Decorator\Example\ProductServiceLogger\EX.Decorator.AspNetCore\EX.Decorator.AspNetCore.csproj", "{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Decorator.Domain", "Decorator\Example\ProductServiceLogger\Ex.Decorator.Domain\Ex.Decorator.Domain.csproj", "{3D51FBEB-983D-4287-9E86-E86689661704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Decorator.Repository", "Decorator\Example\ProductServiceLogger\Ex.Decorator.Repository\Ex.Decorator.Repository.csproj", "{FE80208D-E46E-4BB0-B041-AA9B5A6D7439}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Decorator.Email", "Decorator\Example\Ex.Decorator.Email\Ex.Decorator.Email.csproj", "{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,17 +35,34 @@ Global
 		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CE6DE4E-88A3-448E-8416-EC1A4450D023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CE6DE4E-88A3-448E-8416-EC1A4450D023}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CE6DE4E-88A3-448E-8416-EC1A4450D023}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CE6DE4E-88A3-448E-8416-EC1A4450D023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D51FBEB-983D-4287-9E86-E86689661704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D51FBEB-983D-4287-9E86-E86689661704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D51FBEB-983D-4287-9E86-E86689661704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D51FBEB-983D-4287-9E86-E86689661704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE80208D-E46E-4BB0-B041-AA9B5A6D7439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE80208D-E46E-4BB0-B041-AA9B5A6D7439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE80208D-E46E-4BB0-B041-AA9B5A6D7439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE80208D-E46E-4BB0-B041-AA9B5A6D7439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D43B5F2F-FBAF-406E-A147-A35C1EAB364A} = {8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}
-		{8CE6DE4E-88A3-448E-8416-EC1A4450D023} = {8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}
+		{96A3F939-78F0-4176-B00F-91E87A5F33D2} = {8C94E3FD-5020-49C0-B76D-A3C4D5BBEBC3}
+		{14C8CAB4-63C1-440B-8658-0D321ABDF3FC} = {96A3F939-78F0-4176-B00F-91E87A5F33D2}
+		{93DB0B76-25E8-4FF7-AF01-5B06DAFC6D19} = {14C8CAB4-63C1-440B-8658-0D321ABDF3FC}
+		{3D51FBEB-983D-4287-9E86-E86689661704} = {14C8CAB4-63C1-440B-8658-0D321ABDF3FC}
+		{FE80208D-E46E-4BB0-B041-AA9B5A6D7439} = {14C8CAB4-63C1-440B-8658-0D321ABDF3FC}
+		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C} = {96A3F939-78F0-4176-B00F-91E87A5F33D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}
