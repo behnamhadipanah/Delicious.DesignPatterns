@@ -1,10 +1,10 @@
 ﻿using System.Net;
 
-namespace Ex.Decorator.App;
+namespace Ex.Decorator.WebClientApp;
 
-public class WebClientDecorator : WebClient
+public class WebClientDecorator:WebClient
 {
-    private readonly WebClient _webClient;
+    private readonly System.Net.WebClient _webClient;
 
     public WebClientDecorator(WebClient webClient)
     {
@@ -15,7 +15,7 @@ public class WebClientDecorator : WebClient
     {
         if (address.StartsWith("https://github.com"))
             return _webClient.DownloadString(address);
-        
+
         return string.Empty;
     }
 }
