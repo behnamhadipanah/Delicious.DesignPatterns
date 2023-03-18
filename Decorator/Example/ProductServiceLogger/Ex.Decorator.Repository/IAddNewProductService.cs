@@ -6,12 +6,4 @@ namespace Ex.Decorator.Repository
     {
         void Execute(Product product);
     }
-
-    public class AddNewProductService : IAddNewProductService
-    {
-        public void Execute(Product product)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
