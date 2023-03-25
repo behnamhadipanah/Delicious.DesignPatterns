@@ -27,7 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Decorator.Email", "Decor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Decorator.WebClientApp", "Decorator\Example\Ex.Decorator.WebClient\Ex.Decorator.WebClientApp.csproj", "{1CDD2351-B1E9-429B-BFA5-55E1615484CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Decorator.DecoratorVsInheritance", "Decorator\Example\Ex.Decorator.DecoratorVsInheritance\Ex.Decorator.DecoratorVsInheritance.csproj", "{AB276319-60BD-464B-9E92-42C6C173DADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Decorator.DecoratorVsInheritance", "Decorator\Example\Ex.Decorator.DecoratorVsInheritance\Ex.Decorator.DecoratorVsInheritance.csproj", "{AB276319-60BD-464B-9E92-42C6C173DADF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{A7A8BF13-ED71-4E16-8187-001CB18C3E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{3058DE81-2C2C-4C33-BB12-193D08B2649F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade_Pattern", "Facade\Facade_Pattern\Facade_Pattern.csproj", "{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,10 @@ Global
 		{AB276319-60BD-464B-9E92-42C6C173DADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB276319-60BD-464B-9E92-42C6C173DADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB276319-60BD-464B-9E92-42C6C173DADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +87,8 @@ Global
 		{9A800C86-DCFA-4A6C-8A38-E7F42D07DA9C} = {96A3F939-78F0-4176-B00F-91E87A5F33D2}
 		{1CDD2351-B1E9-429B-BFA5-55E1615484CC} = {96A3F939-78F0-4176-B00F-91E87A5F33D2}
 		{AB276319-60BD-464B-9E92-42C6C173DADF} = {96A3F939-78F0-4176-B00F-91E87A5F33D2}
+		{3058DE81-2C2C-4C33-BB12-193D08B2649F} = {A7A8BF13-ED71-4E16-8187-001CB18C3E09}
+		{463D4A2B-C638-44DE-A52B-78E1F2CC7CD8} = {A7A8BF13-ED71-4E16-8187-001CB18C3E09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}
