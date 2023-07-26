@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ex.Bridge.EmailSender.MailService.Bridge;
 
-namespace Ex.Bridge.EmailSender.MailService
+namespace Ex.Bridge.MailServiceImplementor
 {
     public class GmailService:IMailServiceBridge
     {

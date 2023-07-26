@@ -12,11 +12,14 @@ namespace Ex.Bridge.EmailSender.MailService.Abstractions
     {
         private readonly IMailServiceBridge _mailServiceBridge;
 
-        public MailServiceAbstraction(IMailServiceBridge bridge)
+        public MailServiceAbstraction()
         {
-            _mailServiceBridge = bridge;
+            _mailServiceBridge = Implementation.GetImplementor();
         }
-        public virtual void Send(EmailInformationDto email){}
+        public virtual void Send(EmailInformationDto email){
+
+            _mailServiceBridge.SendEmail(email.Reciver, email.Title, email.Message);
+        }
     }
 }
 

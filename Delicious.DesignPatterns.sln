@@ -41,11 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Facade.Application", "Fa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{E30DBFAB-6A54-498D-8947-1D489BD9C9D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge_Pattern", "Bridge\Bridge_Pattern\Bridge_Pattern.csproj", "{5133BA8B-C00B-43B3-9FA5-206BEBFB6460}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge_Pattern", "Bridge\Bridge_Pattern\Bridge_Pattern.csproj", "{5133BA8B-C00B-43B3-9FA5-206BEBFB6460}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{E3321ABC-01B3-4C43-A17F-6FE2349B7449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Bridge.EmailSender", "Bridge\Example\Ex.Bridge.EmailSender\Ex.Bridge.EmailSender.csproj", "{145841E4-43F7-460C-A5AC-68E253E80CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Bridge.EmailSender", "Bridge\Example\Ex.Bridge.EmailSender\Ex.Bridge.EmailSender.csproj", "{145841E4-43F7-460C-A5AC-68E253E80CC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Bridge.MailServiceImplementor", "Bridge\Example\Ex.Bridge.MailServiceImplementor\Ex.Bridge.MailServiceImplementor.csproj", "{52425F0C-1187-4318-9D91-3C891E3471C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,10 @@ Global
 		{145841E4-43F7-460C-A5AC-68E253E80CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{145841E4-43F7-460C-A5AC-68E253E80CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{145841E4-43F7-460C-A5AC-68E253E80CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52425F0C-1187-4318-9D91-3C891E3471C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52425F0C-1187-4318-9D91-3C891E3471C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52425F0C-1187-4318-9D91-3C891E3471C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52425F0C-1187-4318-9D91-3C891E3471C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +128,7 @@ Global
 		{5133BA8B-C00B-43B3-9FA5-206BEBFB6460} = {E30DBFAB-6A54-498D-8947-1D489BD9C9D2}
 		{E3321ABC-01B3-4C43-A17F-6FE2349B7449} = {E30DBFAB-6A54-498D-8947-1D489BD9C9D2}
 		{145841E4-43F7-460C-A5AC-68E253E80CC2} = {E3321ABC-01B3-4C43-A17F-6FE2349B7449}
+		{52425F0C-1187-4318-9D91-3C891E3471C9} = {E3321ABC-01B3-4C43-A17F-6FE2349B7449}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}

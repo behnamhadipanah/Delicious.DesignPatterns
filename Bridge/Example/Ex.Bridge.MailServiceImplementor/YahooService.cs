@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Ex.Bridge.EmailSender.MailService.Bridge;
 
-namespace Ex.Bridge.EmailSender.MailService
+namespace Ex.Bridge.MailServiceImplementor
 {
-    public class GmailService:IMailServiceBridge
+    internal class YahooService : IMailServiceBridge
     {
         public List<string> GetEmails()
         {
@@ -16,9 +15,9 @@ namespace Ex.Bridge.EmailSender.MailService
 
         public void SendEmail(string reciver, string title, string meesage)
         {
-            // Code Send Gmail
+            // Code Send Yahoo
 
-            Console.WriteLine($"Email {title} Sended to {reciver} With {nameof(GmailService)}");
+            Console.WriteLine($"Email {title} Sended to {reciver} With {nameof(YahooService)}");
         }
     }
 }
