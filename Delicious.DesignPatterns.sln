@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Bridge.EmailSender", "Br
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Bridge.MailServiceImplementor", "Bridge\Example\Ex.Bridge.MailServiceImplementor\Ex.Bridge.MailServiceImplementor.csproj", "{52425F0C-1187-4318-9D91-3C891E3471C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{6D4EE8D0-E6F2-49D1-9DDB-DA80CBDE6432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
