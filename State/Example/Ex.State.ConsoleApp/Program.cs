@@ -7,3 +7,8 @@ Console.WriteLine("Hello, World!");
 
 
 Order order=new Order(new WaitingToSendState());
+
+order.Send();
+order.Delivered();
+
+Console.WriteLine();

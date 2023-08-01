@@ -61,6 +61,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{5A08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.State.ConsoleApp", "State\Example\Ex.State.ConsoleApp\Ex.State.ConsoleApp.csproj", "{040419E1-4CBB-4DD4-8B6A-6BB3BF566283}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{3EEDF929-64E1-45C5-902E-576F3CD931A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
