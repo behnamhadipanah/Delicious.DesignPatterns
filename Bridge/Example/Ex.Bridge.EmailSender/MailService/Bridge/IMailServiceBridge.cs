@@ -9,7 +9,7 @@ namespace Ex.Bridge.EmailSender.MailService.Bridge
     //MailServiceImplementor
     public interface IMailServiceBridge
     {
-        void SendEmail(string reciver,string title,string meesage);
+        void SendEmail(string receiver,string title,string message);
         List<string> GetEmails();
     }
 }
