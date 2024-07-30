@@ -18,7 +18,7 @@ namespace Ex.Bridge.EmailSender.MailService.Abstractions
         }
         public virtual void Send(EmailInformationDto email){
 
-            _mailServiceBridge.SendEmail(email.Reciver, email.Title, email.Message);
+            _mailServiceBridge.SendEmail(email.Receiver, email.Title, email.Message);
         }
     }
 }
