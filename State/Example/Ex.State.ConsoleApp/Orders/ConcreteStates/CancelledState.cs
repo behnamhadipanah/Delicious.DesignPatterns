@@ -11,7 +11,7 @@ namespace Ex.State.ConsoleApp.Orders.ConcreteStates
         public OrderStatus Status => OrderStatus.Cancelled;
         public bool CanSend(Order order)
         {
-            return 
+            return false;
         }
 
         public bool CanCancel(Order order)
