@@ -121,11 +121,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder_Pattern.App", "Buil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{7A724493-F2C5-4B8F-B6DB-CEF246FA0B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_Pattern.App", "Strategy\Strategy_Pattern.App\Strategy_Pattern.App.csproj", "{F90AE37D-C9F9-4774-8DD5-7ED8A440F6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy_Pattern.App", "Strategy\Strategy_Pattern.App\Strategy_Pattern.App.csproj", "{F90AE37D-C9F9-4774-8DD5-7ED8A440F6C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{37CFBAD6-9397-45F0-AA18-246F4B72758F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Strategy.Sort.App", "Strategy\Example\Ex.Strategy.Sort.App\Ex.Strategy.Sort.App.csproj", "{DB650DE5-B0A6-4129-BD79-8D7EDCF57AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Strategy.Sort.App", "Strategy\Example\Ex.Strategy.Sort.App\Ex.Strategy.Sort.App.csproj", "{DB650DE5-B0A6-4129-BD79-8D7EDCF57AE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethod", "TemplateMethod", "{1DC33C33-8453-41F3-B437-B8D273593BED}"
 EndProject
@@ -134,6 +134,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{A39D6214-E68D-438E-BC86-9AFF33475763}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.TemplateMethod_Sample.App", "TemplateMethod\Example\Ex.TemplateMethod_Sample.App\Ex.TemplateMethod_Sample.App.csproj", "{3092FEFC-C97D-4F66-ADBE-115E11C116A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.TemplateMethod_RegisterOrder.App", "TemplateMethod\Example\Ex.TemplateMethod_RegisterOrder.App\Ex.TemplateMethod_RegisterOrder.App.csproj", "{A6640456-8418-4309-B60F-765FB00E79B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -281,6 +283,10 @@ Global
 		{3092FEFC-C97D-4F66-ADBE-115E11C116A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3092FEFC-C97D-4F66-ADBE-115E11C116A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3092FEFC-C97D-4F66-ADBE-115E11C116A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6640456-8418-4309-B60F-765FB00E79B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6640456-8418-4309-B60F-765FB00E79B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6640456-8418-4309-B60F-765FB00E79B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6640456-8418-4309-B60F-765FB00E79B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -333,6 +339,7 @@ Global
 		{F97D920C-3773-4F8C-AE5B-4CCC43DA7EF7} = {1DC33C33-8453-41F3-B437-B8D273593BED}
 		{A39D6214-E68D-438E-BC86-9AFF33475763} = {1DC33C33-8453-41F3-B437-B8D273593BED}
 		{3092FEFC-C97D-4F66-ADBE-115E11C116A4} = {A39D6214-E68D-438E-BC86-9AFF33475763}
+		{A6640456-8418-4309-B60F-765FB00E79B2} = {A39D6214-E68D-438E-BC86-9AFF33475763}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}
