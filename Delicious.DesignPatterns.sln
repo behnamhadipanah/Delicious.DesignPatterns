@@ -121,11 +121,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder_Pattern.App", "Buil
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{7A724493-F2C5-4B8F-B6DB-CEF246FA0B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy_Pattern.App", "Strategy\Strategy_Pattern.App\Strategy_Pattern.App.csproj", "{F90AE37D-C9F9-4774-8DD5-7ED8A440F6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy_Pattern.App", "Strategy\Strategy_Pattern.App\Strategy_Pattern.App.csproj", "{F90AE37D-C9F9-4774-8DD5-7ED8A440F6C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{37CFBAD6-9397-45F0-AA18-246F4B72758F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Strategy.Sort.App", "Strategy\Example\Ex.Strategy.Sort.App\Ex.Strategy.Sort.App.csproj", "{DB650DE5-B0A6-4129-BD79-8D7EDCF57AE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex.Strategy.Sort.App", "Strategy\Example\Ex.Strategy.Sort.App\Ex.Strategy.Sort.App.csproj", "{DB650DE5-B0A6-4129-BD79-8D7EDCF57AE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
