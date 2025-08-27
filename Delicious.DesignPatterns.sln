@@ -179,6 +179,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{69F2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.Interpreter.FormatDate", "Interpreter\Example\Ex.Interpreter.FormatDate\Ex.Interpreter.FormatDate.csproj", "{B07B2DA7-8B58-4332-9D92-C5E12A140840}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor_Pattern_With_Overlodaing", "Visitor\Visitor_Pattern_With_Overlodaing\Visitor_Pattern_With_Overlodaing.csproj", "{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -373,6 +375,10 @@ Global
 		{B07B2DA7-8B58-4332-9D92-C5E12A140840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B07B2DA7-8B58-4332-9D92-C5E12A140840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B07B2DA7-8B58-4332-9D92-C5E12A140840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -440,6 +446,7 @@ Global
 		{66517E1B-BBE1-4161-9203-BA487F9E8E3F} = {E4BF9073-2856-C5BC-1961-9E500B914A9A}
 		{69F262D2-B684-8AF3-6545-5535E86B07AC} = {E4BF9073-2856-C5BC-1961-9E500B914A9A}
 		{B07B2DA7-8B58-4332-9D92-C5E12A140840} = {69F262D2-B684-8AF3-6545-5535E86B07AC}
+		{7E9BA818-DC22-4A1E-A2C0-6928B8B81A8B} = {3EEDF929-64E1-45C5-902E-576F3CD931A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E407A0FE-9583-4A0E-9C30-59DEAF05400A}
